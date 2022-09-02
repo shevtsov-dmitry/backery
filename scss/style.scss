@@ -99,5 +99,30 @@ body{
 }
 .burg-img {
     width: 60%;
-    
+}
+
+.our-proud {
+}
+
+.blocks-of-info {
+}
+.info-icons {
+}
+.info-text {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    // 
+
+    h3 {
+        font-family: calibri, sans-serif;
+    }
+    hr{
+        background-color: orange;
+        height: 2px;
+        border-style: none;
+    }
+    p{
+        font-family: calibri, sans-serif;
+    }
 }
