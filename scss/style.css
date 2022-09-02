@@ -15,20 +15,20 @@ body {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   box-sizing: border-box;
   max-width: 100vw;
   min-height: 100%;
 }
 
 .entrance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../imgs/entrance-background.jpg);
   background-size: cover;
   background-position: center;
@@ -37,5 +37,30 @@ body {
   font-family: "Sitka Banner";
   color: #ffffff;
   z-index: 1;
-  font-size: 400%;
+  font-size: 0%;
+}
+
+.few-burgers {
+  margin-top: 10vh;
+  width: 100vw;
+  height: 160vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-icon h2 {
+  font-family: "Sitka Banner";
+  font-size: 450%;
+}
+.text-icon .icon-heart {
+  margin-top: -5vh;
+  width: 20%;
 }/*# sourceMappingURL=style.css.map */
