@@ -23,34 +23,20 @@ body{
     min-height: 100%;
 }
 .entrance{
+
     width: 100vw;
     height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
-
-    h2 {
+    background-image: url(../imgs/entrance-background.jpg);
+    background-size:cover;
+    background-position: center;
+    
+    h1 {
         font-family: 'Sitka Banner';
-        color:#4e3f21;
+        color:#ffffff;
         z-index: 1;
         font-size: 400%;
-        
     }
-    .bakery-background{
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background-image:url(../imgs//backery-background.jpg);
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        opacity: 0.8;
-    }
-    
-}
-.about-bakery {
-        background-color: blanchedalmond;
-        width: 50vw;
-        height: 20vh;
-    
 }
