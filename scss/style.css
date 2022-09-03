@@ -168,7 +168,8 @@ body {
   font-weight: 600;
 }
 .order-block ul {
-  background-color: #000000;
+  overflow: hidden;
+  background-color: #804747;
   width: 100%;
   padding: 0;
   list-style: none;
@@ -176,6 +177,10 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   -moz-column-gap: 0;
        column-gap: 0;
+}
+.order-block ul li {
+  z-index: 1;
+  transition: transform 0.2s linear;
 }
 .order-block ul li img {
   width: 100%;
