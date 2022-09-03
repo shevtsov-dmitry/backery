@@ -50,8 +50,8 @@ body{
     height: 100vh;
     @include dfi;
     flex-direction: column;
-    
-    
+    // !$!$!$!$!$!$!$!@$!@$!@$!$
+    // overflow: scroll;
 }
 .text-icon {
     height: 35vh;
@@ -107,7 +107,8 @@ body{
     font-family: calibri, sans-serif;
 }
 .wrapper-3-block{
-    
+    // !$!$!$!$!$!$!$!@$!@$!@$!$
+    // overflow: scroll;
     width: 100%;
     height: 100%;
     background-color: black;
@@ -164,7 +165,6 @@ body{
 
 .order-block{
      width: 100%;
-     @include df;
      flex-direction: column;
     h2{
         font-family: 'Sitka Banner';
@@ -173,20 +173,20 @@ body{
     }
     ul{
         overflow: hidden;
-        background-color: #804747;
         width:100%;
         padding: 0;
-    
         list-style: none;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 0;
     
         li{
+            @include df;
             cursor: pointer;
             z-index: 1;
-            transition: transform 0.2s linear;
+            transition: transform 0.3s linear;
             img{
+                transition: filter 0.3s linear;
                 width: 100%;
                 height: 100%;
                 object-fit:fill;
@@ -196,6 +196,58 @@ body{
         }
     }
     
+}
+.burg-buy{
+    z-index: 1;
+    position: absolute;
+    width: auto;
+    height: 32%;
+    background-color:#14253a;
+    opacity: 0.86;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    h3{
+        color: #d2b515;
+        text-align: center;
+        font-size: 250%;
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+  
+    ul{
+        display: block;
+        list-style: circle !important;
+        
+    }
+    li{
+        justify-content: start !important;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        font-size: 120%;
+        color:#e5ff9f;
+    }
+    button{
+        z-index: 2;
+        font-size: 200%;
+        color:#ffffff;
+        border-style: solid;
+        border-color: #000000;
+        background-color: #292929;
+        opacity: 1 !important;
+        border-radius: 30px;
+        height: 80%;
+        width:50%;
+        :hover{
+            background-color: #fff;
+            color:#000;
+            cursor: pointer;
+        }
+    }
 }
 
 // ==============================Footer============================
