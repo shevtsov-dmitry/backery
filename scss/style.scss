@@ -183,6 +183,7 @@ body{
         column-gap: 0;
     
         li{
+            cursor: pointer;
             z-index: 1;
             transition: transform 0.2s linear;
             img{
