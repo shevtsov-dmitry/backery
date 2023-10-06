@@ -1,0 +1,13 @@
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin dfi {
+  display: flex;
+  justify-content: center;
+}
+@mixin color-font-3-block {
+  color:#FFFFFF;
+  font-family: calibri, sans-serif;
+}

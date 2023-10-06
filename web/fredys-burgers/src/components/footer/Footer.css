@@ -1,0 +1,47 @@
+footer {
+  background-color: #000000;
+  margin-top: -2vh;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+.wrapper-footer section {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #FFFFFF;
+}
+.wrapper-footer section h2 {
+  font-weight: 700;
+  margin: 1vh 0vh 0vh 2vh;
+  font-size: 400%;
+}
+.wrapper-footer section h3 {
+  font-size: 200%;
+  text-align: center;
+}
+.wrapper-footer section ul {
+  margin-top: 1.5em;
+  list-style: none;
+}
+.wrapper-footer section a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.wrapper-footer section a :hover {
+  color: orange;
+}
+.wrapper-footer section li {
+  font-weight: 300;
+  font-size: 120%;
+  line-height: 1.7em;
+}
+.wrapper-footer section li :nth-child(1) {
+  font-weight: 500;
+  font-size: 135%;
+  line-height: 2em;
+}
+
+/*# sourceMappingURL=Footer.css.map */

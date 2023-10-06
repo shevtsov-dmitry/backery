@@ -1,0 +1,15 @@
+@import "mixins";
+
+body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  @include df;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 100%;
+}
