@@ -34,7 +34,84 @@ function Order(){
     //         })
     //     })
     // }
+    const burgers = []
 
+    burgers.push({
+        name: "Shooter",
+        ingredients: [
+            "fidju fish",
+            "colosal suffle alacoto",
+            "waley faick",
+            "keegen efadis",
+            "kiligang reece",
+            "potato",
+            "cabbagge"
+        ],
+        price: "19,99$"
+    })
+
+    burgers.push({
+        name: "Accomplishers",
+        ingredients: [
+            "potato",
+            "cabbagge",
+            "fidju fish",
+            "colosal suffle",
+            "waley faick",
+            "keegen efadis",
+            "kiligan greece"
+        ],
+        price: "21,99$"
+    })
+
+    burgers.push({
+        name: "Belong",
+        ingredients: [
+            "fidju fish",
+            "colosal suffle",
+            "waley faick",
+            "keegen efadis"
+        ],
+        price: "19,99$"
+    })
+
+    burgers.push({
+        name: "Whole Time",
+        ingredients: [
+            "potato",
+            "cabbagge",
+            "waley faick",
+            "keegen efadis",
+            "kiligan greece"
+        ],
+        price: "34.99$"
+    })
+
+    burgers.push({
+        name: "Ketchuppy floring",
+        ingredients: [
+            "potato",
+            "cabbagge",
+            "fidju fish",
+            "colosal suffle",
+            "waley faick"
+        ],
+        price: "34.99$"
+    })
+
+    burgers.push({
+        name: "Loffye's",
+        ingredients: [
+            "potato",
+            "cabbagge",
+            "fidju fish",
+            "colosal suffle",
+            "waley faick",
+            "keegen efadis",
+            "kiligan greece"
+        ],
+        price: "29,99$"
+    })
 
     return(
         <>
