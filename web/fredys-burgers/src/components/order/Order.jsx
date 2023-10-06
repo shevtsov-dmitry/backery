@@ -47,7 +47,8 @@ function Order(){
             "potato",
             "cabbagge"
         ],
-        price: "19,99$"
+        price: "19,99$",
+        imageUrl: "../../../imgs/burger-top-left.png",
     })
 
     burgers.push({
@@ -61,7 +62,9 @@ function Order(){
             "keegen efadis",
             "kiligan greece"
         ],
-        price: "21,99$"
+        price: "21,99$",
+        imageUrl: "../../../imgs/burger-top-mid.png",
+
     })
 
     burgers.push({
@@ -72,7 +75,8 @@ function Order(){
             "waley faick",
             "keegen efadis"
         ],
-        price: "19,99$"
+        price: "19,99$",
+        imageUrl: "../../../imgs/burger-top-right.png",
     })
 
     burgers.push({
@@ -84,7 +88,8 @@ function Order(){
             "keegen efadis",
             "kiligan greece"
         ],
-        price: "34.99$"
+        price: "34.99$",
+        imageUrl: "../../../imgs/burger-bot-left.png",
     })
 
     burgers.push({
@@ -96,7 +101,8 @@ function Order(){
             "colosal suffle",
             "waley faick"
         ],
-        price: "34.99$"
+        price: "34.99$",
+        imageUrl: "../../../imgs/burger-bot-mid.png",
     })
 
     burgers.push({
@@ -110,7 +116,8 @@ function Order(){
             "keegen efadis",
             "kiligan greece"
         ],
-        price: "29,99$"
+        price: "29,99$",
+        imageUrl: "../../../imgs/burger-bot-right.png",
     })
 
     return(
