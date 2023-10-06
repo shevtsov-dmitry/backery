@@ -4,6 +4,7 @@ import PreviewGreetingPage from "./components/previewGreetingPage/PreviewGreetin
 import EverythingYouLike from "./components/everythingYouLike/EverythingYouLike.jsx";
 import OurProud from "./components/ourProud/OurProud.jsx";
 import Order from "./components/order/Order.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                 <EverythingYouLike></EverythingYouLike>
                 <OurProud></OurProud>
                 <Order></Order>
+                <Footer></Footer>
             </main>
         </>
     )
