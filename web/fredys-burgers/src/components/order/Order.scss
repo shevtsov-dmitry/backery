@@ -22,14 +22,16 @@
       @include df;
       cursor: pointer;
       z-index: 1;
-      img{
-        transition:transform 0.3s linear, filter 0.3s linear;
-        width: 100%;
-        height: 100%;
-        object-fit:fill;
-        object-position: center;
-      }
+
     }
+  }
+
+  img{
+    transition:transform 0.3s linear, filter 0.3s linear;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    object-position: center;
   }
 
 }
