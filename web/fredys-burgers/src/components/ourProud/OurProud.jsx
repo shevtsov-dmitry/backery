@@ -7,7 +7,7 @@ function OurProud() {
                     <h2>Our proud</h2>
                     <div className="blocks-of-info">
                         <section>
-                            <img className="info-icons" src="../../../public/imgs/icon-burger.png"></img>
+                            <img className="info-icons" src="../../../imgs/icon-burger.png"></img>
                             <div className="info-text">
                                 <h3>great taste</h3>
                                 <hr></hr>
@@ -17,7 +17,7 @@ function OurProud() {
                             </div>
                         </section>
                         <section>
-                            <img className="info-icons" src="../../../public/imgs/icon-waiter.png"></img>
+                            <img className="info-icons" src="../../../imgs/icon-waiter.png"></img>
                             <div className="info-text">
                                 <h3>friendly service</h3>
                                 <hr></hr>
@@ -27,7 +27,7 @@ function OurProud() {
                             </div>
                         </section>
                         <section>
-                            <img className="info-icons" src="../../../public/imgs/icon-deliver.png"></img>
+                            <img className="info-icons" src="../../../imgs/icon-deliver.png"></img>
                             <div className="info-text">
                                 <h3>fast delivery</h3>
                                 <hr></hr>
@@ -37,7 +37,7 @@ function OurProud() {
                             </div>
                         </section>
                         <section>
-                            <img className="info-icons" src="../../../public/imgs/icon-hot-discount.png"></img>
+                            <img className="info-icons" src="../../../imgs/icon-hot-discount.png"></img>
                             <div className="info-text">
                                 <h3>hot discounts</h3>
                                 <hr></hr>

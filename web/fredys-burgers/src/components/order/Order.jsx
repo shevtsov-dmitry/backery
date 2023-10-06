@@ -57,7 +57,7 @@ function Order(){
                             </article>
                             <button>19,99$</button>
                         </div>
-                        <img src="../../../public/imgs/burger-up-left.png" alt=""></img>
+                        <img src="../../../imgs/burger-up-left.png" alt=""></img>
                     </li>
                     <li>
                         <div className="burg-buy">
@@ -75,7 +75,7 @@ function Order(){
                             </article>
                             <button>21,99$</button>
                         </div>
-                        <img src="../../../public/imgs/burger-up-mid.png" alt=""></img>
+                        <img src="../../../imgs/burger-up-mid.png" alt=""></img>
                     </li>
                     <li>
                         <div className="burg-buy">
@@ -90,7 +90,7 @@ function Order(){
                             </article>
                             <button>19,99$</button>
                         </div>
-                        <img src="../../../public/imgs/burger-up-right.png" alt=""></img>
+                        <img src="../../../imgs/burger-up-right.png" alt=""></img>
                     </li>
                     <li>
                         <div className="burg-buy">
@@ -106,7 +106,7 @@ function Order(){
                             </article>
                             <button>34.99$</button>
                         </div>
-                        <img src="../../../public/imgs/burger-bot-left.png" alt=""></img>
+                        <img src="../../../imgs/burger-bot-left.png" alt=""></img>
                     </li>
                     <li>
                         <div className="burg-buy">
@@ -122,7 +122,7 @@ function Order(){
                             </article>
                             <button>39,99$</button>
                         </div>
-                        <img src="../../../public/imgs/burger-bot-mid.png" alt=""></img>
+                        <img src="../../../imgs/burger-bot-mid.png" alt=""></img>
                     </li>
                     <li>
                         <div className="burg-buy">
@@ -140,7 +140,7 @@ function Order(){
                             </article>
                             <button>29,99$</button>
                         </div>
-                        <img src="../../../public/imgs/burger-bot-right.png" alt=""></img>
+                        <img src="../../../imgs/burger-bot-right.png" alt=""></img>
                     </li>
                 </ul>
             </div>
