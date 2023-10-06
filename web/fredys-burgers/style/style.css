@@ -120,8 +120,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  -moz-column-gap: 5%;
-       column-gap: 5%;
+  column-gap: 5%;
 }
 .blocks-of-info section {
   display: flex;
@@ -131,8 +130,6 @@ body {
 .info-icons {
   margin-right: 1.5%;
   transform: scale(0.8);
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
 }
 
@@ -174,8 +171,7 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  -moz-column-gap: 0;
-       column-gap: 0;
+  column-gap: 0;
 }
 .order-block ul li {
   display: flex;
@@ -188,10 +184,8 @@ body {
   transition: transform 0.3s linear, filter 0.3s linear;
   width: 100%;
   height: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: fill;
+  object-position: center;
 }
 
 .burg-buy {
@@ -285,4 +279,6 @@ footer {
   font-weight: 500;
   font-size: 135%;
   line-height: 2em;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
