@@ -6,7 +6,7 @@ import App from './App.jsx'
 import '../style/wholeHtmlPageCommonLayout.css'
 import './components/previewGreetingPage/PreviewGreetingPage.css'
 import './components/everythingYouLike/EverythingYouLike.css'
-
+import './components/ourProud/OurProud.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
