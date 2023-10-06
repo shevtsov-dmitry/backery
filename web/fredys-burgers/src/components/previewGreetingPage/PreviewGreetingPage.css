@@ -14,7 +14,7 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background-image: url(../../public/imgs/entrance-background.jpg);
+  background-image: url(../../../public/imgs/entrance-background.jpg);
   background-size: cover;
   background-position: center;
 }
